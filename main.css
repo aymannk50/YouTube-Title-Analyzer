@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    color: #1e40af;
+    font-family: 'Arial', sans-serif;
+}
+
+.btn-primary {
+    background-color: #f97316;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ea580c;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.best-title {
+    background-color: #f97316;
+    color: white;
+}
